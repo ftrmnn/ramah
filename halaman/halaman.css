@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR*/
+.navbar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+    width: 100%;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #de2639;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+    background-color:#de2639;
+    border-radius: 7px;
+}
+
+@media screen and (max-width:805px) {
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+}
+
+/* RAMADHAN */
+
+.ramadhan h1 {
+    text-align: center;
+    color: #de2639;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:810px) {
+    
+    .ramadhan h1 {
+        font-size: 2rem;
+    }
+
+}
+
+/* takjil */
+
+
+.jil{
+    display: flex;
+}
+
+.takjil h1 {
+    color: white;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.jil img {
+    width: 25rem;
+    height: 15rem;
+    margin: 3rem 0 0 3rem;
+    border-radius: 20px;
+    
+}
+
+.jil h2 {
+    color: white;
+    margin: 3rem 0 0 1rem;
+    
+}
+
+
+@media screen and (max-width:810px) {
+
+    .jil img {
+        margin: 2rem 0 0 1rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .jil h2 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 11rem;
+        margin-left: -10rem;
+    }
+}
+
+/* traweh */
+
+.wih {
+    display: flex;
+}
+
+.traweh h1 {
+    color: white;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.wih img {
+    width: 25rem;
+    height: auto;
+    margin: 3rem 3rem 0 1rem;
+    border-radius: 20px;
+    align-items: flex-end;
+}
+
+.wih h2 {
+    color: white;
+    margin: 3rem 0 0 1rem;
+}
+
+@media screen and (max-width:810px) {
+
+    .wih img {
+        margin: 2rem 1rem 0 1rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .wih h2 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 11rem;
+        margin-right: -10rem;
+    }
+}
+
+
+
+/* takbiran */
+
+.tak {
+    display: flex;
+}
+
+.takbiran h1 {
+    color: white;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.tak img {
+    width: 25rem;
+    height: auto;
+    margin: 3rem 0 0 3rem;
+    border-radius: 20px;
+}
+
+.tak h2 {
+    color: white;
+    margin: 3rem 0 0 1rem;
+}
+
+@media screen and (max-width:810px) {
+
+    .tak img {
+        margin: 2rem 0 0 1rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .tak h2 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 11rem;
+        margin-left: -10rem;
+    }
+}
+
+/* RAMADHAN END */
+
+/* EVENT - KEGIATAN */
+
+/* pengajian */
+
+.jian {
+    display: flex;
+}
+
+.pengajian h1 {
+    color: white;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.jian img {
+    width: 25rem;
+    height: auto;
+    margin: 3rem 0 0 3rem;
+    border-radius: 20px;
+}
+
+.jian h2 {
+    color: white;
+    margin: 3rem 0 0 1rem;
+}
+
+@media screen and (max-width:810px) {
+
+    .jian img {
+        margin: 2rem 0 0 1rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .jian h2 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 11rem;
+        margin-left: -10rem;
+    }
+}
+
